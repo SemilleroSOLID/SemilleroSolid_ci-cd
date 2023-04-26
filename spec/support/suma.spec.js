@@ -1,10 +1,15 @@
-const { sumar } = require('../../sumar')
+const { suma } = require("../../suma");
 
-describe('Pre-commit hook', () => {
-    it('La función sumar debe devolver 11', () => {
-      const resultado = sumar(5, 7);
-      expect(resultado).toBe(12);
+describe("Test about dummy function", () => {
+    it("should return a + b number", () => {
+        const result = suma(4, 3);
+        expect(result).toBe(7);
     });
-  });
-
-  
+    
+    it("should fail", () => {
+        const numberA = 5;
+        const numberB = 6;
+        const result = suma(numberA, numberB);
+        expect(result).not.toEqual(14);
+    })
+})
