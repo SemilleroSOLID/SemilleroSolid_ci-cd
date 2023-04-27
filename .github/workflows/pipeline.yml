@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -15,4 +15,3 @@ jobs:
       run: npm install
     - name: Run Jasmine tests
       run: npm test
-      
