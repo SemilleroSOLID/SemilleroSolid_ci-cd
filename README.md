@@ -1,3 +1,4 @@
+[![Jasmine Test](https://github.com/SemilleroSOLID/SemilleroSolid_ci-cd/actions/workflows/pipeline.yml/badge.svg)](https://github.com/SemilleroSOLID/SemilleroSolid_ci-cd/actions/workflows/pipeline.yml)
 # Generador de aplicaciones Express
 
 Este es un generador de aplicaciones Express para crear rápidamente aplicaciones web en Node.js.
