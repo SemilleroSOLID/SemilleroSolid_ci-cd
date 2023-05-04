@@ -1,4 +1,4 @@
-name: Jasmine Test
+name: Pre-commit
 
 on:
   push:
@@ -13,6 +13,6 @@ jobs:
       uses: actions/checkout@v3
     - name: Install dependencies
       run: npm install
-    - name: Run Jasmine tests
-      run: npm test
+    - name: Run pre-commit checks
+      run : sh ./pre-commit.sh
 
