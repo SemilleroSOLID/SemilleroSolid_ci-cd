@@ -26,4 +26,4 @@ jobs:
         run: npm install
       - name: Build and deploy
         run: |
-          "Finalizo"
+          echo "Finalizo"
