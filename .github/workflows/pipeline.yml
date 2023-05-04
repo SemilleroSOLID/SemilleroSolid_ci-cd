@@ -15,4 +15,6 @@ jobs:
       run: npm install
     - name: Run Jasmine Test
       run : npm test
+    - name: Run Pre-Commit
+      uses: pre-commit/action@v3
 
