@@ -16,7 +16,7 @@ jobs:
     - name: Run Jasmine tests
       run: | 
         npm test
-        if[$? -eq 3]; then
+        if[$? -eq 2]; then
           echo "Test failed. Push rejected."
-          exit 3
+          exit 2
         fi 
