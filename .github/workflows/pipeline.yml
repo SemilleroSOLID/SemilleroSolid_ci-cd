@@ -14,9 +14,10 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Run Jasmine tests
-      run: | 
+      run: |
         npm test
-        if[ $? -eq 2 ]; then
+        if [ $? -eq 2 ]; then
           echo "Test failed. Push rejected."
           exit 2
         fi 
+
