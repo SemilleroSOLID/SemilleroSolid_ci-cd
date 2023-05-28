@@ -9,7 +9,7 @@ describe("Test about dummy function", () => {
     it("should fail", () => {
         const numberA = 5;
         const numberB = 6;
-        const result = suma(numberA, numberB);
+        const result = resta(numberA, numberB);
         expect(result).not.toEqual(14);
     })
 })
