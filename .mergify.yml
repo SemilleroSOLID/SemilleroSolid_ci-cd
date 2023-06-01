@@ -2,7 +2,7 @@ pull_request_rules:
   - name: Automatic merge on approval
     conditions:
       - "#approved-reviews-by>=1"
-      - author = nicolas-castro92
+      - author = JulianLopez93
     actions:
       merge:
         method: merge
