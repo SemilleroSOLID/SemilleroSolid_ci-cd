@@ -1,11 +1,10 @@
-const { suma } = require("../../suma");
-
+import { suma } from "../../suma.js";
 describe("Test about dummy function", () => {
     it("should return a + b number", () => {
         const result = suma(4, 3);
         expect(result).toBe(7);
     });
-    
+
     it("should fail", () => {
         const numberA = 5;
         const numberB = 6;
