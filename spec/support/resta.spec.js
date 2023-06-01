@@ -8,7 +8,7 @@ describe("Test about dummy function", () => {
     
     it("should fail", () => {
         const numberA = 8;
-        const numberB = 4;
+        const numberB = 2;
         const result = resta(numberA, numberB);
         expect(result).not.toEqual(14);
     })
