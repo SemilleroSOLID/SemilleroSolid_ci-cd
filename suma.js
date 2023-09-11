@@ -1,5 +1,5 @@
 exports.suma = (a, b) => {
-    return a + b; 
+    return a - b; 
 }
 
 
