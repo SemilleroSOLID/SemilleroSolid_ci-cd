@@ -2,9 +2,9 @@ name: Jasmine Test
 
 on:
   push:
-    branches: [main]
+    branches: [fixed]
   pull_request:
-    branches: [main]
+    branches: [fixed]
     types: [opened, synchronize]
 
 jobs:
